@@ -1,0 +1,12 @@
+/target
+/.env
+/.idea
+/.nvimlog
+/.venv
+.DS_Store
+/Cargo.lock
+/.acme
+/vendor
+NOTES.md
+*.log
+*.out
