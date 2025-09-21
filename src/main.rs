@@ -1,8 +1,8 @@
 use std::net::{SocketAddr, TcpListener};
 use std::process;
 
-use axum::routing::get;
 use axum::Router;
+use axum::routing::get;
 use socket2::{Domain, Protocol, Socket, Type};
 use tokio::net::TcpListener as TokioTcpListener;
 
